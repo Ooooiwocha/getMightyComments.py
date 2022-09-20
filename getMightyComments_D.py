@@ -20,8 +20,6 @@ if input("PRESS ANY KEY") != 0:
   SKIPCOUNT = input("PLEASE INPUT SKIPCOUNT");
   while not SKIPCOUNT.isdigit():
     SKIPCOUNT = input("ERROR: NONINTEGER CHARACTER(S) DETECTED");
-    if SKIPCOUNT=="":
-      SKIPCOUNT = 0;
     
   SKIPCOUNT = int(SKIPCOUNT);  
 
